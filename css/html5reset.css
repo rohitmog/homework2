@@ -6,97 +6,76 @@ Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
+
 
 body {
     line-height:1;
+    font-family:'Lucida Grande', sans-serif;
+    background-color: black;
+}
+header{
+    text-align: center;
+}
+div{
+    min-height: 150px;
+    padding: 25px; 
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
-	display:block;
+#red {
+    background-color: red;
+    text-align: right;
+}
+#blue {
+    background-color: blue;
+    text-align: left;
+}
+#yellow {
+    background-color: yellow;
+    text-align: right;
 }
 
-nav ul {
-    list-style:none;
+footer {
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
-blockquote, q {
-    quotes:none;
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+    color: white;
+}
+h2 {
+    font-size: 30px;
+    text-shadow: 5px 5px 2px #808080;
+    color: white;
+}
+p{
+    font-size: 24px;
+    padding-top: 20px;
+    color: white;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
+img{
+    position: relative;
+    text-align: center;
+    width: 525px;
 }
 
-a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+
+#yellow p{
+    color: black;
+    text-shadow: 5px 5px 2px #c7e2c7;
 }
 
-/* change colours to suit your needs */
-ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
+#yellow h2{
+    color: black;
+    text-shadow: 5px 5px 2px #c7e2c7;
 }
 
-/* change colours to suit your needs */
-mark {
-    background-color:#ff9;
-    color:#000; 
-    font-style:italic;
-    font-weight:bold;
+#green {
+    background-color: green;
+    text-align: left;
 }
 
-del {
-    text-decoration: line-through;
-}
-
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
-}
-
-table {
-    border-collapse:collapse;
-    border-spacing:0;
-}
-
-/* change border colour to suit your needs */
-hr {
-    display:block;
-    height:1px;
-    border:0;   
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
-}
-
-input, select {
-    vertical-align:middle;
-}
