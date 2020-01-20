@@ -11,7 +11,7 @@ Twitter: @rich_clark
 body {
     line-height:1;
     font-family:'Lucida Grande', sans-serif;
-    background-color: black;
+    background-color: #000000;
 }
 header{
     text-align: center;
@@ -22,15 +22,15 @@ div{
 }
 
 #red {
-    background-color: red;
+    background-color: #ff0000;
     text-align: right;
 }
 #blue {
-    background-color: blue;
+    background-color: #0000ff;
     text-align: left;
 }
 #yellow {
-    background-color: yellow;
+    background-color: #ffff00;
     text-align: right;
 }
 
@@ -44,17 +44,17 @@ footer {
 h1 {
     font-size: 64px;
     text-align: center;
-    color: white;
+    color: #ffffff;
 }
 h2 {
     font-size: 30px;
     text-shadow: 5px 5px 2px #808080;
-    color: white;
+    color: #ffffff;
 }
 p{
     font-size: 24px;
     padding-top: 20px;
-    color: white;
+    color: #ffffff;
 }
 
 img{
@@ -65,7 +65,7 @@ img{
 
 
 #yellow p{
-    color: black;
+    color: #000000;
     text-shadow: 5px 5px 2px #c7e2c7;
 }
 
@@ -75,7 +75,7 @@ img{
 }
 
 #green {
-    background-color: green;
+    background-color: #008000;
     text-align: left;
 }
 
